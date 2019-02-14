@@ -1,0 +1,54 @@
+{
+	"name": "stimulsoft-dashboards-js",
+	"version": "2019.2.1",
+	"description": "Stimulsoft Dashboards.JS is a dashboards tool for Node.js",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stimulsoft/Dashboards.JS.git"
+	},
+	"keywords": [
+		"Stimulsoft",
+		"Reports",
+                "Dashboards",
+		"Stimulsoft.Dashboards.JS",
+		"Reporting tool",
+                "Dashboards tool"
+	],
+	"dependencies": {
+		"stimulsoft-reports-js": "2019.2.1"
+	},
+	"files": [
+		"license.txt",
+		"package.json",
+		"README.md",
+		"stimulsoft.dashboards.js"
+	],
+	"author": {
+		"name": "Stimulsoft",
+		"url": "http://www.stimulsoft.com"
+	},
+	"maintainers": [
+		{
+			"name": "Stimulsoft",
+			"email": "info@stimulsoft.com",
+			"url": "http://www.stimulsoft.com"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Stimulsoft",
+			"email": "info@stimulsoft.com",
+			"url": "http://www.stimulsoft.com"
+		}
+	],
+	"license": "Closed Source",
+	"bugs": {
+		"url": "https://github.com/stimulsoft/Dashboards.JS/issues"
+	},
+	"homepage": "https://github.com/stimulsoft/Dashboards.JS#readme",
+	"devDependencies": {}
+}
