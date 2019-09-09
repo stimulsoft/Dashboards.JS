@@ -1,6 +1,6 @@
 {
     "name": "stimulsoft-dashboards-js",
-    "version": "2019.3.5",
+    "version": "2019.3.5a",
     "description": "Stimulsoft Dashboards.JS is a dashboards tool for Node.js",
     "main": "index.js",
     "scripts": {
@@ -22,10 +22,7 @@
         "stimulsoft-reports-js": "2019.3.5"
     },
     "files": [
-        "license.txt",
-        "package.json",
-        "README.md",
-        "stimulsoft.dashboards.js"
+        "*"
     ],
     "author": {
         "name": "Stimulsoft",
