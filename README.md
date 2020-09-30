@@ -1,20 +1,50 @@
 # Stimulsoft Dashboards.JS
-Stimulsoft Dashboards.JS is a dashboards tool for Node.js and JavaScript applications.
+Stimulsoft Dashboards.JS is a dashboards tool for Node.js and JavaScript applications. You can create new and load already created dashboards, easily connect to various databases, and export the dashboards to PDF, Excel, Data and other formats.
 
-# Install
-```sh
-$ npm install stimulsoft-dashboards-js
+# How to install
+Ceate a project folder and install Dashboards.JS module using the specified command:
+```
+npm install stimulsoft-dashboards-js
 ```
 
-# Trial Limitation
-This is a trial version of Stimulsoft.Dashboards.JS for Node.js, the free trial versions of Stimulsoft Dashboards are fully functional and will work for an unlimited time. The only limitation is a DEMO watermark displayed on each report page.
+# How to load and save the dashboard
+Create index.js file in the folder, and add the required code:
+```js
+// Stimulsoft dashboards module loading
+var Stimulsoft = require('stimulsoft-dashboards-js');
 
-# Stimulsoft Dashboards.JS
-Stimulsoft Dashboards.JS is a platform for generating reports using JavaScript and HTML5. It has all the necessary components to design, edit, and view reports. The reporting tool is licensed per number of developers and does not include royalties for the users of your applications. Stimulsoft Dashboards.JS can be used in any JavaScript application on client and work as Node.js module on server side.
+// Loading fonts
+Stimulsoft.Base.StiFontCollection.addOpentypeFontFile("Roboto-Black.ttf");
+
+// Creating a new report object
+var dashboard = Stimulsoft.Report.StiReport.createNewDashboard();
+
+// Loading a dashboard template (MRT) into the dashboard object
+dashboard.loadFile("dashboard1.mrt");
+
+// Exporting dashboard to PDF
+dashboard.exportDocumentAsync((pdfData) => {
+
+}
+
+// Saving the dashboard object into a template file (MRT)
+dashboard.saveFile("dashboard2.mrt");
+```
+
+# How to run
+Open console and run index.js
+```
+node index
+```
+
+# Trial limitation
+The free trial versions of Stimulsoft Dashboards.JS for Node.js are fully functional and will work for an unlimited time. The only limitation is a **Trial** watermark displayed on each dashboard page. To activate the product, you do not need to install a special version, just add a license key.
 
 Read more about [Stimulsoft Dashboards.JS](https://www.stimulsoft.com/en/products/dashboards-js)
 
 You can try the [Live Demo](http://demo.stimulsoft.com/#Js)
+
+More information in the [Online Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/index.html?reports_js.htm)
 
 [Free Download](https://www.stimulsoft.com/en/downloads)
 
