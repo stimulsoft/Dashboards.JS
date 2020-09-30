@@ -22,7 +22,7 @@ var dashboard = Stimulsoft.Report.StiReport.createNewDashboard();
 // Loading a dashboard template (MRT) into the dashboard object
 dashboard.loadFile("dashboard1.mrt");
 
-// Exporting dashboard to PDF
+// Exporting the dashboard to PDF
 dashboard.exportDocumentAsync((pdfData) => {
 
 }
