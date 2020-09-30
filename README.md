@@ -7,7 +7,7 @@ Ceate a project folder and install Dashboards.JS module using the specified comm
 npm install stimulsoft-dashboards-js
 ```
 
-# How to load and save the dashboard
+# How to load and save a dashboard
 Create index.js file in the folder, and add the required code:
 ```js
 // Stimulsoft dashboards module loading
