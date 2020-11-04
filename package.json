@@ -1,6 +1,6 @@
 {
     "name": "stimulsoft-dashboards-js",
-    "version": "2020.5.1",
+    "version": "2020.5.1.1",
     "description": "Stimulsoft Dashboards.JS is a dashboards tool for Node.js",
     "main": "index.js",
     "types": "Scripts/stimulsoft.reports.d.ts",
@@ -20,7 +20,6 @@
         "Dashboards tool"
     ],
     "dependencies": {
-        "stimulsoft-reports-js": "2020.5.1"
     },
     "files": [
         "THIRD-PARTY.md",
