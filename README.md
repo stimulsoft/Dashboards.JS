@@ -38,7 +38,7 @@ node index
 ```
 
 # Trial limitation
-The free trial versions of Stimulsoft Dashboards.JS for Node.js are fully functional and will work for an unlimited time. The only limitation is a **Trial** watermark displayed on each dashboard page. To activate the product, you do not need to install a special version, just add a license key.
+The free trial versions of Stimulsoft Dashboards.JS for Node.js are fully functional. The limitation is **120 days** and a **Trial** watermark on the pages. To activate the product, you do not need to install a special version, just add a license key.
 
 Read more about [Stimulsoft Dashboards.JS](https://www.stimulsoft.com/en/products/dashboards-js)
 
