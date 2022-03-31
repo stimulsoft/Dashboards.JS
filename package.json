@@ -1,6 +1,6 @@
 {
     "name": "stimulsoft-dashboards-js",
-    "version": "2022.2.2",
+    "version": "2022.2.2b",
     "description": "Stimulsoft Dashboards.JS is a dashboards tool for Node.js",
     "main": "index.js",
     "types": "Scripts/stimulsoft.reports.d.ts",
@@ -13,11 +13,22 @@
     },
     "keywords": [
         "Stimulsoft",
-        "Reports",
         "Dashboards",
         "Stimulsoft.Dashboards.JS",
-        "Reporting tool",
-        "Dashboards tool"
+        "Data analytics tool",
+        "Data visualization",
+        "Data analytics",
+        "Create dashboard",
+        "Business intelligence",
+        "Export dashboard to PDF",
+        "JavaScript Dashboard Designer",
+        "JavaScript Dashboard Viewer",
+        "Node.js export tool",
+        "Angular dashboard tool",
+        "Vue.js dashboard tool",
+        "React.js dashboard tool",
+        "Online dashboard",
+        "Embedding dashboards"
     ],
     "dependencies": {
         "jimp": "^0.16.1",
