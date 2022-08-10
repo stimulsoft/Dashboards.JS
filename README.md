@@ -25,7 +25,7 @@ dashboard.loadFile("dashboard1.mrt");
 // Exporting the dashboard to PDF
 dashboard.exportDocumentAsync((pdfData) => {
 
-}
+});
 
 // Saving the dashboard object into a template file (MRT)
 dashboard.saveFile("dashboard2.mrt");
@@ -40,12 +40,12 @@ report.loadFile("report1.mrt");
 // Renreding the report
 report.renderAsync(() => {
 
-}
+});
 
 // Exporting the report to PDF
 report.exportDocumentAsync((pdfData) => {
 
-}
+});
 
 // Saving the report object into a template file (MRT)
 report.saveFile("report2.mrt");
