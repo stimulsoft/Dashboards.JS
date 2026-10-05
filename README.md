@@ -1,35 +1,22 @@
-# Stimulsoft Dashboards.JS
-Stimulsoft Dashboards.JS is a full-featured tool used to create dashboards and reports for the JavaScript platform. To generate and view dashboards and reports, you need any web browser that supports HTML and JavaScript. It can work as Client-Side when no server side is required, as well as Server-Side that can be used on the server side.
+# Stimulsoft Reports.JS
+Stimulsoft Reports.JS is a set of reporting tools designed on JavaScript and HTML5 technologies. The report generator works in any JavaScript application, and installation of any browser extensions or frameworks is not required. The product contains everything you need to create, edit, build, view, and export reports to PDF, PowerPoint, HTML, Word, Text, Excel, OpenDocument Writer and Calc, Image (Svg) and Data (Csv).
+
+Data analytics tool for creating dashboards - Stimulsoft Dashboard.JS [NPM](https://www.npmjs.com/package/stimulsoft-dashboards-js), [GitHub](https://github.com/stimulsoft/Dashboards.JS)
 
 # How to install
-Ceate a project folder and install Dashboards.JS module using the specified command:
+Ceate a project folder and install Reports.JS module using the specified command:
 ```
-npm install stimulsoft-dashboards-js
+npm install stimulsoft-reports-js
 ```
 
-# How to load and save a dashboard or a report
+# How to load and save a report
 Create index.js file in the folder, and add the required code:
 ```js
-// Stimulsoft dashboards and reports module loading
-var Stimulsoft = require('stimulsoft-dashboards-js');
+// Stimulsoft reports module loading
+var Stimulsoft = require('stimulsoft-reports-js');
 
 // Loading fonts
 Stimulsoft.Base.StiFontCollection.addOpentypeFontFile("Roboto-Black.ttf");
-
-// Creating a new report object
-var dashboard = Stimulsoft.Report.StiReport.createNewDashboard();
-
-// Loading a dashboard template (MRT) into the dashboard object
-dashboard.loadFile("dashboard1.mrt");
-
-// Exporting the dashboard to PDF
-dashboard.exportDocumentAsync((pdfData) => {
-
-});
-
-// Saving the dashboard object into a template file (MRT)
-dashboard.saveFile("dashboard2.mrt");
-
 
 // Creating a new report object
 var report = Stimulsoft.Report.StiReport.createNewReport();
@@ -61,23 +48,23 @@ node index
 ```
 
 # Integration
-Our dashboards and report generator is excellent for working in any JavaScript application. Components are optimized to work with most popular platforms such as Node.js, Angular, React, Vue.js, and others.
-For integration you need to install only one package from the NPM repository, or download the package from our website to a computer and add several scripts and css-styles to the project. All other things you can find in our, on pure JavaScript developed dashboards and report builder.
+Our report generator is excellent for working in any JavaScript application. Components are optimized to work with most popular platforms such as Node.js, Angular, React, Vue.js, and others.
+For integration you need to install only one package from the NPM repository, or download the package from our website to a computer and add several scripts and css-styles to the project. All other things you can find in our, on pure JavaScript developed report builder.
 
 # Live Demo
-We prepared many templates of dashboards and reports that you can explore and edit in our online demo. Choose the template you need, connect your data, and create rich reports and analytical dashboards – the solution is ready. Try the [Live Demo](http://demo.stimulsoft.com/#Js)
+We prepared many templates of reports and dashboards that you can explore and edit in our online demo. Choose the template you need, connect your data, and create rich reports and analytical dashboards – the solution is ready. Try the [Live Demo](http://demo.stimulsoft.com/#Js)
 
 # More about product
-In Stimulsoft Dashboards.JS, we have included a complete set of tools and components to design simple and complex dashboards and reports. Texts, images, charts, barcodes, many preset styles, grouping and filtering, interactive dashboards and reports, and much more. You can work with dashboards and reports and their components directly from the JavaScript code. Read more about [Stimulsoft Dashboards.JS](https://www.stimulsoft.com/en/products/dashboards-js).
+In Stimulsoft Reports.JS, we have included a complete set of tools and components to design simple and complex reports. Texts, images, charts, barcodes, many preset styles, grouping and filtering, interactive reports, and much more. You can work with reports and their components directly from the JavaScript code. Read more about [Stimulsoft Reports.JS](https://www.stimulsoft.com/en/products/reports-js).
 
 # Video and Documentation
-We provide User Manuals and Class References intended to give technical assistance to users of our dashboards and reporting tool. Find more information in the [Online Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/index.html?reports_js.htm).
+We provide User Manuals and Class References intended to give technical assistance to users of our reporting tool. Find more information in the [Online Documentation](https://www.stimulsoft.com/en/documentation/online/programming-manual/index.html?reports_js.htm).
 
 Also, we prepared many videos about the working of our software. Watch videos on our [YouTube channel](https://www.youtube.com/c/StimulsoftVideos/videos).
 
 [Download](https://www.stimulsoft.com/en/downloads)
 
-[License Info](https://github.com/stimulsoft/Dashboards.JS/blob/HEAD/LICENSE.md)
+[License Info](https://github.com/stimulsoft/Reports.JS/blob/HEAD/LICENSE.md)
 
-[Online Store](https://www.stimulsoft.com/online-store#embedded/dashboards/js)
+[Online Store](https://www.stimulsoft.com/online-store#embedded/reports/js)
 
